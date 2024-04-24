@@ -1,0 +1,427 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.docconnect.hospital"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:22:5-79
+13-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:22:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:23:5-67
+14-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:23:22-64
+15    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+15-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/praneethapratapani/.gradle/caches/transforms-3/e3fd213bc2b847dff3ae1e1e0b763ae1/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+15-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/praneethapratapani/.gradle/caches/transforms-3/e3fd213bc2b847dff3ae1e1e0b763ae1/transformed/recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+18-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:26:5-88
+18-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:26:22-85
+19    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:27:5-82
+19-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:27:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:26:22-107
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] /Users/praneethapratapani/.gradle/caches/transforms-3/1a3ab1533357d36933e419cee0cc496b/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+23        android:name="com.docconnect.hospital.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] /Users/praneethapratapani/.gradle/caches/transforms-3/1a3ab1533357d36933e419cee0cc496b/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] /Users/praneethapratapani/.gradle/caches/transforms-3/1a3ab1533357d36933e419cee0cc496b/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.docconnect.hospital.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] /Users/praneethapratapani/.gradle/caches/transforms-3/1a3ab1533357d36933e419cee0cc496b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] /Users/praneethapratapani/.gradle/caches/transforms-3/1a3ab1533357d36933e419cee0cc496b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:5:5-46:19
+29        android:allowBackup="true"
+29-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:6:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] /Users/praneethapratapani/.gradle/caches/transforms-3/1a3ab1533357d36933e419cee0cc496b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:7:9-43
+33        android:label="@string/app_name"
+33-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:8:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:9:9-54
+35        android:supportsRtl="true"
+35-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:10:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.DocConnect" >
+37-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:11:9-48
+38        <activity
+38-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:12:9-14:39
+39            android:name="com.docconnect.hospital.user_information.PatientViewVisitedDoctorsActivity"
+39-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:13:13-102
+40            android:exported="true" />
+40-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:14:13-36
+41        <activity
+41-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:15:9-17:39
+42            android:name="com.docconnect.hospital.appointment_activities.PatientViewPastAppointmentActivity"
+42-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:16:13-109
+43            android:exported="true" />
+43-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:17:13-36
+44        <activity
+44-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:18:9-20:39
+45            android:name="com.docconnect.hospital.appointment_activities.DoctorViewAvailabilityActivity"
+45-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:19:13-105
+46            android:exported="true" />
+46-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:20:13-36
+47        <activity
+47-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:21:9-23:39
+48            android:name="com.docconnect.hospital.user_information.DoctorPatientCheckupActivity"
+48-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:22:13-97
+49            android:exported="true" />
+49-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:23:13-36
+50        <activity
+50-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:24:9-26:39
+51            android:name="com.docconnect.hospital.appointment_activities.PatientBookAppointmentActivity"
+51-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:25:13-105
+52            android:exported="true" />
+52-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:26:13-36
+53        <activity
+53-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:27:9-29:39
+54            android:name="com.docconnect.hospital.appointment_activities.DoctorViewAppointmentActivity"
+54-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:28:13-104
+55            android:exported="true" />
+55-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:29:13-36
+56        <activity android:name="com.docconnect.hospital.appointment_activities.PatientViewAppointmentActivity" />
+56-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:30:9-114
+56-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:30:19-111
+57        <activity android:name="com.docconnect.hospital.appointment_activities.PatientChooseDoctorActivity" />
+57-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:31:9-111
+57-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:31:19-108
+58        <activity android:name="com.docconnect.hospital.user_information.PatientActivity" />
+58-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:32:9-93
+58-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:32:19-90
+59        <activity android:name="com.docconnect.hospital.user_information.AdminActivity" />
+59-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:33:9-91
+59-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:33:19-88
+60        <activity android:name="com.docconnect.hospital.user_information.HealthInfoActivity" />
+60-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:34:9-96
+60-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:34:19-93
+61        <activity android:name="com.docconnect.hospital.user_information.DoctorActivity" />
+61-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:35:9-92
+61-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:35:19-89
+62        <activity android:name="com.docconnect.hospital.user_information.PatientSignup" />
+62-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:36:9-91
+62-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:36:19-88
+63        <activity android:name="com.docconnect.hospital.user_information.DoctorSignup" />
+63-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:37:9-90
+63-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:37:19-87
+64        <activity android:name="com.docconnect.hospital.LoginPage" />
+64-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:38:9-70
+64-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:38:19-67
+65        <activity android:name="com.docconnect.hospital.MainActivity" >
+65-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:39:9-45:20
+65-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:39:19-70
+66            <intent-filter>
+66-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:40:13-44:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:41:17-69
+67-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:41:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:43:17-77
+69-->/Users/praneethapratapani/Downloads/Docconnect (3) (1)/app/src/main/AndroidManifest.xml:43:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <service
+73-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:26:9-35:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:27:13-84
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:32:13-43
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:28:13-37
+77            <meta-data
+77-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:29:13-31:85
+78                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+78-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:30:17-120
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:31:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:32:13-34:85
+81                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+81-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:33:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-database:20.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/a9336b3f243a3bc79d4b25f4196bec72/transformed/firebase-database-20.3.1/AndroidManifest.xml:34:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:69:13-71:85
+84                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+84-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:70:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:71:17-82
+86            <meta-data
+86-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:37:13-39:85
+87                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+87-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:38:17-139
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:39:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-installations:17.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/dc38c65906f83ba6dc28fd15d902dcd0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+90                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+90-->[com.google.firebase:firebase-installations:17.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/dc38c65906f83ba6dc28fd15d902dcd0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-installations:17.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/dc38c65906f83ba6dc28fd15d902dcd0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-installations:17.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/dc38c65906f83ba6dc28fd15d902dcd0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+93                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+93-->[com.google.firebase:firebase-installations:17.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/dc38c65906f83ba6dc28fd15d902dcd0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-installations:17.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/dc38c65906f83ba6dc28fd15d902dcd0/transformed/firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/6104e2205eb3cc7a69edaadae3eba54e/transformed/firebase-common-ktx-20.4.3/AndroidManifest.xml:12:13-14:85
+96                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+96-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/6104e2205eb3cc7a69edaadae3eba54e/transformed/firebase-common-ktx-20.4.3/AndroidManifest.xml:13:17-116
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/6104e2205eb3cc7a69edaadae3eba54e/transformed/firebase-common-ktx-20.4.3/AndroidManifest.xml:14:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:35:13-37:85
+99                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+99-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:36:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:37:17-82
+101        </service>
+102
+103        <provider
+103-->[androidx.emoji2:emoji2:1.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/8ee25cbf853a8187873bf37616874a4d/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+104            android:name="androidx.startup.InitializationProvider"
+104-->[androidx.emoji2:emoji2:1.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/8ee25cbf853a8187873bf37616874a4d/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+105            android:authorities="com.docconnect.hospital.androidx-startup"
+105-->[androidx.emoji2:emoji2:1.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/8ee25cbf853a8187873bf37616874a4d/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+106            android:exported="false" >
+106-->[androidx.emoji2:emoji2:1.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/8ee25cbf853a8187873bf37616874a4d/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+107            <meta-data
+107-->[androidx.emoji2:emoji2:1.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/8ee25cbf853a8187873bf37616874a4d/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+108-->[androidx.emoji2:emoji2:1.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/8ee25cbf853a8187873bf37616874a4d/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+109                android:value="androidx.startup" />
+109-->[androidx.emoji2:emoji2:1.2.0] /Users/praneethapratapani/.gradle/caches/transforms-3/8ee25cbf853a8187873bf37616874a4d/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+110            <meta-data
+110-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/praneethapratapani/.gradle/caches/transforms-3/9269c793e8092edbe76267f908af9bcd/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+111-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/praneethapratapani/.gradle/caches/transforms-3/9269c793e8092edbe76267f908af9bcd/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+112                android:value="androidx.startup" />
+112-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/praneethapratapani/.gradle/caches/transforms-3/9269c793e8092edbe76267f908af9bcd/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+115                android:value="androidx.startup" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+116        </provider>
+117
+118        <activity
+118-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
+119            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+119-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:30:13-80
+120            android:excludeFromRecents="true"
+120-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:31:13-46
+121            android:exported="true"
+121-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:32:13-36
+122            android:launchMode="singleTask"
+122-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:33:13-44
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+123-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:34:13-72
+124            <intent-filter>
+124-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:35:13-45:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+125-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
+127-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+128-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
+129
+130                <data
+130-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:41:17-44:51
+131                    android:host="firebase.auth"
+131-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:42:21-49
+132                    android:path="/"
+132-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:43:21-37
+133                    android:scheme="genericidp" />
+133-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:44:21-48
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:47:9-64:20
+137            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+137-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:48:13-79
+138            android:excludeFromRecents="true"
+138-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:49:13-46
+139            android:exported="true"
+139-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:50:13-36
+140            android:launchMode="singleTask"
+140-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:51:13-44
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+141-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:52:13-72
+142            <intent-filter>
+142-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:53:13-63:29
+143                <action android:name="android.intent.action.VIEW" />
+143-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:36:17-69
+143-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:36:25-66
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:38:17-76
+145-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:38:27-73
+146                <category android:name="android.intent.category.BROWSABLE" />
+146-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:39:17-78
+146-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:39:27-75
+147
+148                <data
+148-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:41:17-44:51
+149                    android:host="firebase.auth"
+149-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:42:21-49
+150                    android:path="/"
+150-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:43:21-37
+151                    android:scheme="recaptcha" />
+151-->[com.google.firebase:firebase-auth:22.3.1] /Users/praneethapratapani/.gradle/caches/transforms-3/c36a0d3793cc410363d3f94fa1233efc/transformed/firebase-auth-22.3.1/AndroidManifest.xml:44:21-48
+152            </intent-filter>
+153        </activity>
+154
+155        <property
+155-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:30:9-32:61
+156            android:name="android.adservices.AD_SERVICES_CONFIG"
+156-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:31:13-65
+157            android:resource="@xml/ga_ad_services_config" />
+157-->[com.google.android.gms:play-services-measurement-api:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/389b90a3886fd04aac3c2fa53afac280/transformed/play-services-measurement-api-21.6.2/AndroidManifest.xml:32:13-58
+158
+159        <provider
+159-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:23:9-28:39
+160            android:name="com.google.firebase.provider.FirebaseInitProvider"
+160-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:24:13-77
+161            android:authorities="com.docconnect.hospital.firebaseinitprovider"
+161-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:25:13-72
+162            android:directBootAware="true"
+162-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:26:13-43
+163            android:exported="false"
+163-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:27:13-37
+164            android:initOrder="100" />
+164-->[com.google.firebase:firebase-common:20.4.3] /Users/praneethapratapani/.gradle/caches/transforms-3/f12c01842cd9fe1638ffb67705f22071/transformed/firebase-common-20.4.3/AndroidManifest.xml:28:13-36
+165
+166        <receiver
+166-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:29:9-33:20
+167            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+167-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:30:13-85
+168            android:enabled="true"
+168-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:31:13-35
+169            android:exported="false" >
+169-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:32:13-37
+170        </receiver>
+171
+172        <service
+172-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:35:9-38:40
+173            android:name="com.google.android.gms.measurement.AppMeasurementService"
+173-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:36:13-84
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:37:13-35
+175            android:exported="false" />
+175-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:38:13-37
+176        <service
+176-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:39:9-43:72
+177            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+177-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:40:13-87
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:41:13-35
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:42:13-37
+180            android:permission="android.permission.BIND_JOB_SERVICE" />
+180-->[com.google.android.gms:play-services-measurement:21.6.2] /Users/praneethapratapani/.gradle/caches/transforms-3/98dc2972bc2c60a08c35efbcf9dbbf5e/transformed/play-services-measurement-21.6.2/AndroidManifest.xml:43:13-69
+181
+182        <activity
+182-->[com.google.android.gms:play-services-base:18.1.0] /Users/praneethapratapani/.gradle/caches/transforms-3/f5638ef68ef95f44d8d7da2416a16ce5/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+183            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+183-->[com.google.android.gms:play-services-base:18.1.0] /Users/praneethapratapani/.gradle/caches/transforms-3/f5638ef68ef95f44d8d7da2416a16ce5/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+184            android:exported="false"
+184-->[com.google.android.gms:play-services-base:18.1.0] /Users/praneethapratapani/.gradle/caches/transforms-3/f5638ef68ef95f44d8d7da2416a16ce5/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+185-->[com.google.android.gms:play-services-base:18.1.0] /Users/praneethapratapani/.gradle/caches/transforms-3/f5638ef68ef95f44d8d7da2416a16ce5/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+186
+187        <uses-library
+187-->[androidx.window:window:1.0.0] /Users/praneethapratapani/.gradle/caches/transforms-3/0d7484abedeeb441aefe56c632fd9543/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+188            android:name="androidx.window.extensions"
+188-->[androidx.window:window:1.0.0] /Users/praneethapratapani/.gradle/caches/transforms-3/0d7484abedeeb441aefe56c632fd9543/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+189            android:required="false" />
+189-->[androidx.window:window:1.0.0] /Users/praneethapratapani/.gradle/caches/transforms-3/0d7484abedeeb441aefe56c632fd9543/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+190        <uses-library
+190-->[androidx.window:window:1.0.0] /Users/praneethapratapani/.gradle/caches/transforms-3/0d7484abedeeb441aefe56c632fd9543/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+191            android:name="androidx.window.sidecar"
+191-->[androidx.window:window:1.0.0] /Users/praneethapratapani/.gradle/caches/transforms-3/0d7484abedeeb441aefe56c632fd9543/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+192            android:required="false" />
+192-->[androidx.window:window:1.0.0] /Users/praneethapratapani/.gradle/caches/transforms-3/0d7484abedeeb441aefe56c632fd9543/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+193        <uses-library
+193-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/praneethapratapani/.gradle/caches/transforms-3/d449fbb8399526d1c3ebd45b900d1c82/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+194            android:name="android.ext.adservices"
+194-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/praneethapratapani/.gradle/caches/transforms-3/d449fbb8399526d1c3ebd45b900d1c82/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+195            android:required="false" />
+195-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/praneethapratapani/.gradle/caches/transforms-3/d449fbb8399526d1c3ebd45b900d1c82/transformed/ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+196
+197        <meta-data
+197-->[com.google.android.gms:play-services-basement:18.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/f1be5fba0b124f15bfb9ce9409ab1236/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+198            android:name="com.google.android.gms.version"
+198-->[com.google.android.gms:play-services-basement:18.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/f1be5fba0b124f15bfb9ce9409ab1236/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+199            android:value="@integer/google_play_services_version" />
+199-->[com.google.android.gms:play-services-basement:18.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/f1be5fba0b124f15bfb9ce9409ab1236/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+200
+201        <receiver
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+202            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+202-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+203            android:directBootAware="false"
+203-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+204            android:enabled="true"
+204-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+205            android:exported="true"
+205-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+206            android:permission="android.permission.DUMP" >
+206-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+207            <intent-filter>
+207-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+208                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+209            </intent-filter>
+210            <intent-filter>
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+211                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+212            </intent-filter>
+213            <intent-filter>
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+214                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+215            </intent-filter>
+216            <intent-filter>
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+217                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/praneethapratapani/.gradle/caches/transforms-3/da08460f9cbd8500528e1692ad0a162a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+218            </intent-filter>
+219        </receiver>
+220    </application>
+221
+222</manifest>

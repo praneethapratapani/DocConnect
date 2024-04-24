@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1029750945553",
+    "firebase_url": "https://docconnect-8720b-default-rtdb.firebaseio.com",
+    "project_id": "docconnect-8720b",
+    "storage_bucket": "docconnect-8720b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029750945553:android:614546a39f8d2de947feb0",
+        "android_client_info": {
+          "package_name": "com.docconnect.hospital"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjYoP7mg8OywvzA82l6WChHfyNVj8Ibw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

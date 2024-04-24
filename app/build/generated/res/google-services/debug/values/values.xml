@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://docconnect-8720b-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1029750945553</string>
+    <string name="google_api_key" translatable="false">AIzaSyDbjYoP7mg8OywvzA82l6WChHfyNVj8Ibw</string>
+    <string name="google_app_id" translatable="false">1:1029750945553:android:614546a39f8d2de947feb0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDbjYoP7mg8OywvzA82l6WChHfyNVj8Ibw</string>
+    <string name="google_storage_bucket" translatable="false">docconnect-8720b.appspot.com</string>
+    <string name="project_id" translatable="false">docconnect-8720b</string>
+</resources>

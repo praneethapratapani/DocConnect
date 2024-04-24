@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    tools:context=".user_information.DoctorActivity">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:onClick="navigateToDoctorViewAvailabilityActivity"
+        android:text="See Available Time"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="0dp"
+        android:onClick="navigateToDoctorViewPatientsActivity"
+        android:text="See Patient Info"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="0dp"
+        android:onClick="navigateToDoctorViewAppointmentsActivity"
+        android:text="See Upcoming Appointments"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/doctorSignOut"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Log Out"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/doctor_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</RelativeLayout>
